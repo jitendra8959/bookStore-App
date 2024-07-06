@@ -1,0 +1,267 @@
+@mixin btn-style($border-radius) {
+    display: inline-block;
+    font-weight: $ft_Weight_SM;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 9px 15px 9px 16px;
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: $border-radius;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    text-wrap: nowrap;
+    // @include transition(all 0.3s ease-in-out);
+
+    &:focus,
+    &:active {
+      box-shadow: none;
+      outline: 0;
+    }
+  }
+
+  @mixin btn-color-style($color, $background-color, $border-color) {
+    color: $color;
+    background-color: $background-color;
+    border-color: $border-color;
+  }
+
+  .theme-btn {
+    @include btn-style(5px);
+
+    &.theme-btn-lg {
+      @include respond(tab-port-min1) {
+        font-size: 20px;
+        font-weight: $ft_Weight_SM;
+        padding: 15px 25px;
+      }
+    }
+
+    &.theme-btn-md {
+      @include respond(tab-port-min1) {
+        font-size: 16px;
+        padding: 12px 15px;
+        font-weight: $ft_Weight_M;
+      }
+    }
+
+    &.theme-btn-sm {
+      font-size: 12px;
+      padding: 9px 10px;
+      line-height: 13px;
+
+    }
+
+
+  }
+
+  .theme-btn-rdus{
+    @include btn-style(5px);
+  }
+
+  .theme-primary{
+    @include btn-color-style($white, $brand-primary, $brand-primary);
+  }
+
+    .theme-primary:hover,
+  .theme-primary:focus,
+  .theme-primary:active {
+    @include btn-color-style($white, $brand-primary-hover, $brand-primary-hover);
+  }
+
+  .theme-secondary {
+    @include btn-color-style($brand-primary, $brand-secondary, $brand-secondary);
+  }
+
+  .theme-secondary:hover,
+  .theme-secondary:focus,
+  .theme-secondary:active {
+    @include btn-color-style($brand-primary, $brand-secondary-hover, $brand-secondary-hover);
+  }
+
+  .theme-success {
+    @include btn-color-style($white, $brand-success, $brand-success);
+  }
+
+  .theme-success:hover,
+  .theme-success:focus,
+  .theme-success:active {
+    @include btn-color-style($white, $brand-success-hover, $brand-success-hover);
+  }
+
+  .theme-danger {
+    @include btn-color-style($white, $brand-danger, $brand-danger);
+  }
+
+  .theme-danger:hover,
+  .theme-danger:focus,
+  .theme-danger:active {
+    @include btn-color-style($white, $brand-danger-hover, $brand-danger-hover);
+  }
+
+  .theme-warning {
+    @include btn-color-style($brand-primary, $brand-warning, $brand-warning);
+  }
+
+  .theme-warning:hover,
+  .theme-warning:focus,
+  .theme-warning:active {
+    @include btn-color-style($brand-primary, $brand-warning-hover, $brand-warning-hover);
+  }
+
+  .theme-info {
+    @include btn-color-style($white, $brand-info, $brand-info);
+  }
+
+  .theme-info:hover,
+  .theme-info:focus,
+  .theme-info:active {
+    @include btn-color-style($white, $brand-info-hover, $brand-info-hover);
+  }
+
+  .theme-light {
+    @include btn-color-style($black, $brand-light, $brand-light);
+  }
+
+  .theme-light:hover,
+  .theme-light:focus,
+  .theme-light:active {
+    @include btn-color-style($black, $brand-light-hover, $brand-light-hover);
+  }
+
+  .theme-dark {
+    @include btn-color-style($white, $brand-dark, $brand-dark);
+  }
+
+  .theme-dark:hover,
+  .theme-dark:focus,
+  .theme-dark:active {
+    @include btn-color-style($white, $brand-dark-hover, $brand-dark-hover);
+  }
+  .theme-purple{
+    @include btn-color-style($white, $brand-purple, $brand-purple);
+  }
+  .theme-purple:hover,
+  .theme-purple:focus,
+  .theme-purple:active {
+    @include btn-color-style($white, $brand-purple-hover, $brand-purple-hover);
+  }
+
+  /*outline btn css*/
+
+  .theme-outline-primary {
+    @include btn-color-style($brand-primary, transparent, $brand-primary);
+    background-image: none;
+  }
+
+  .theme-outline-primary:hover,
+  .theme-outline-primary:focus,
+  .theme-outline-primary:active {
+    @include btn-color-style($white, $brand-primary-hover, $brand-primary-hover);
+  }
+
+  .theme-outline-secondary {
+    @include btn-color-style($brand-secondary, transparent, $brand-secondary);
+    background-image: none;
+  }
+
+  .theme-outline-secondary:hover,
+  .theme-outline-secondary:focus,
+  .theme-outline-secondary:active {
+    @include btn-color-style($white, $brand-secondary-hover, $brand-secondary-hover);
+  }
+
+  .theme-outline-success {
+    @include btn-color-style($brand-success, transparent, $brand-success);
+    background-image: none;
+  }
+
+  .theme-outline-success:hover,
+  .theme-outline-success:focus,
+  .theme-outline-success:active {
+    @include btn-color-style($white, $brand-success-hover, $brand-success-hover);
+  }
+
+  .theme-outline-danger {
+    @include btn-color-style($brand-danger, transparent, $brand-danger);
+    background-image: none;
+  }
+
+  .theme-outline-danger:hover,
+  .theme-outline-danger:focus,
+  .theme-outline-danger:active {
+    @include btn-color-style($white, $brand-danger-hover, $brand-danger-hover);
+  }
+
+  .theme-outline-warning {
+    @include btn-color-style($brand-warning, transparent, $brand-warning);
+  }
+
+  .theme-outline-warning:hover,
+  .theme-outline-warning:focus,
+  .theme-outline-warning:active {
+    @include btn-color-style($white, $brand-warning-hover, $brand-warning-hover);
+  }
+
+  .theme-outline-info {
+    @include btn-color-style($brand-info, transparent, $brand-info);
+    background-image: none;
+  }
+
+  .theme-outline-info:hover,
+  .theme-outline-info:focus,
+  .theme-outline-info:active {
+    @include btn-color-style($white, $brand-info-hover, $brand-info-hover);
+  }
+
+  .theme-outline-light {
+    @include btn-color-style($brand-light, transparent, $brand-light);
+  }
+
+  .theme-outline-light:hover,
+  .theme-outline-light:focus,
+  .theme-outline-light:active {
+    @include btn-color-style($black, $brand-light-hover, $brand-light-hover);
+  }
+
+  .theme-outline-dark {
+    @include btn-color-style($brand-dark, transparent, $brand-dark);
+  }
+
+  .theme-outline-dark:hover,
+  .theme-outline-dark:focus,
+  .theme-outline-dark:active {
+    @include btn-color-style($white, $brand-dark-hover, $brand-dark-hover);
+  }
+
+  /* // outline btn css*/
+  /* Theme link css*/
+  .theme-link {
+    color: $brand-primary;
+    background-color: transparent;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $brand-primary-hover;
+    }
+  }
+
+  /* // Theme link css*/
+
+  %primary-shad {
+    box-shadow: -3px 0 22px 0 rgba(29, 73, 149, 0.3);
+    -webkit-box-shadow: -3px 0 22px 0 rgba(29, 73, 149, 0.3);
+    -moz-box-shadow: -3px 0 22px 0 rgba(29, 73, 149, 0.3);
+  }
+
+  .btn-primary-shad {
+    @extend %primary-shad;
+  }

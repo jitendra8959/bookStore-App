@@ -1,0 +1,53 @@
+
+  .ps--active-y {
+    padding-right: 12px;
+
+  }
+
+  .ps__rail-y {
+
+    width: 10px;
+
+  }
+
+  .ps__thumb-y {
+
+    width: 6px;
+
+  }
+
+  .ps__rail-y:hover>.ps__thumb-y,
+  .ps__rail-y:focus>.ps__thumb-y,
+  .ps__rail-y.ps--clicking .ps__thumb-y {
+    background-color: #999;
+    width: 6px;
+  }
+
+
+::-webkit-scrollbar,
+.notification_list::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+}
+::-webkit-scrollbar-track,
+.notification_list::-webkit-scrollbar-track{
+    background: #3D3D3D !important;
+    opacity: 1;
+}
+::-webkit-scrollbar-thumb,
+.notification_list::-webkit-scrollbar-thumb{
+    background: #B2B2B2 !important;
+    opacity: 1;
+}
+::-webkit-scrollbar-thumb:hover,
+.notification_list::-webkit-scrollbar-thumb:hover{
+    background: #B2B2B2 !important;
+    opacity: 1;
+}
+
+
+// :root {
+//     scrollbar-color: #3D3D3D #B2B2B2 !important;
+//     scrollbar-width: thin !important;
+// }

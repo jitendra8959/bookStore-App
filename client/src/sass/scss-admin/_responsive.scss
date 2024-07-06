@@ -1,0 +1,126 @@
+@media screen and (min-width: 1200px) and (max-width: 1708px) {
+    #original_source-error {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+
+    .widgets-select-wrap .select2-container .select2-selection--single,
+    .widgets-select-wrap .select2-container .select2-selection--single .select2-selection__rendered {
+        min-width: 160px;
+    }
+
+}
+
+@media screen and (max-width: 1399px) {
+
+}
+@media screen and (max-width: 1365px) {
+
+}
+@media(max-width:1300px){
+
+}
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 1050px) {
+
+}
+
+@media screen and (max-width: 991px) {
+    // .heading_wrapper {
+    //     flex-wrap: wrap;
+    //     gap: 10px;
+    // }
+    // .heading_wrapper_right {
+    //     flex-direction: column;
+    //     align-items: flex-start;
+    //     flex-wrap: wrap;
+    //     width:100%;
+    // }
+    // .all_employee_sec .site_search_wrapper,.site-select-wrapper{
+    //     min-width:auto;
+    //     width:100%;
+    // }
+    .heading_wrapper_right {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        width:100%;
+    }
+    .site_search_wrapper{
+        min-width:auto !important;
+    }
+
+} 
+
+@media screen and (max-width: 767px) {
+.heading_wrapper{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.site_btn_wrapper,
+.site_btn_wrapper .file_input_btn
+{
+  width:100%;
+}
+.site_search_wrapper,.site-select-wrapper{
+    min-width:auto !important;
+    width:100%;
+}
+.date_input_box,.file_input_btn,.all_employee_sec .add_newEmployee_btn,.member_report_btn{
+  width:100% !important;
+}
+.input_icon_wrapper span {
+    top: 13px;
+}
+.pagination-wrapper-bottom {
+    flex-direction: column;
+    margin-top: 20px !important;
+ }
+ .pagination-wrapper-bottom .table-user-page {
+    width: 100%;
+ }
+ .table_title_wrapper.admin_desh_top{
+    flex-direction: row;
+    align-items: center;
+ }
+ .site_bottombox_right{
+    width:100%;
+    gap:10px;
+ }
+ .performance_review_bottom .addcomment_textarea{
+    padding:11px;
+ }
+ .site_table_wrapper p {
+    text-align: center;
+    margin-bottom:0px;
+  }
+.heading_wrapper_right {
+    gap:10px;
+}
+}
+
+@media screen and (max-width: 575px) {
+    .table_title_wrapper.admin_desh_top{
+        flex-direction:column;
+        align-items:flex-start;
+     }
+     .admin_desh_top .add_department{
+        width:100%;
+     } 
+     .multidetail_drodown{
+        align-items: flex-start;
+     }
+}
+
+
+
+
+
+
+

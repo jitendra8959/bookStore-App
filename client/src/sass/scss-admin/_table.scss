@@ -1,0 +1,282 @@
+.site-table{
+    border: 1px solid #D1D6E2;
+    thead {
+        th {
+
+            background-color: #1D2858;
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: 700;
+            color: #FFFFFF;
+            padding: 10px 25px 9px;
+            vertical-align: middle;
+            text-wrap: nowrap;
+        }
+    }
+    tbody {
+        tr {
+            td{
+                padding: 12px 17px;
+                border-color: #D1D6E2;
+                font-size: 14px;
+                line-height: 16px;
+                font-weight: 400;
+                color: #6A7382;
+                vertical-align: middle;
+                text-wrap: nowrap;
+                .week{
+                    font-size:15px;
+                    line-height:17px;
+                    font-weight: $ft_Weight_SM;
+                    color:#2A3941;
+                }
+            }
+
+        }
+    }
+}
+tfoot{
+    tr {
+        td {
+            padding:25px;
+            border-color:#D1D6E2;
+            font-size:14px;
+            line-height:16px;
+            font-weight:$regular;
+            color:#6A7382;
+            vertical-align:middle;
+            text-wrap: nowrap;
+        }
+    }
+}
+
+.pagination-wrapper-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    .b-pagination-pills {
+        .page-item {
+            .page-link {
+                width: 32px;
+                height: 32px;
+                border-radius: 7px !important;
+                padding: 0;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #fff;
+                cursor: pointer;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000B1D;
+                margin-left: 10px;
+            }
+            &.active {
+                .page-link {
+                    background-color: $brand-info;
+                    border-color: $brand-info;
+                    color: $white;
+                    &:hover, &:focus, &:active {
+                         box-shadow: none !important;
+                    }
+                }
+            }
+           &.disabled {
+                background-color: transparent;
+                .page-link {
+                    background-color: #F2F5FC;
+                }
+            }
+        }
+
+    }
+    .table-user-page {
+        color: #000;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .table-user-count {
+        display: inline-block;
+        font-size: 14px;
+        color: #000;
+        font-weight: 500;
+    }
+    .pagination {
+        margin-bottom: 0;
+    }
+    .site-select{
+        &.site-select-sm {
+            .multiselect {
+                min-width: 100px;
+                .multiselect-multiple-label,
+                .multiselect-placeholder,
+                .multiselect-single-label {
+                    padding-left: 10px;
+                    font-weight: 400;
+                    line-height: 15px;
+                }
+            }
+        }
+    }
+}
+
+.table-user-count {
+    display: inline-block;
+}
+.table-action-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.veritical-top {
+    vertical-align: top !important;
+}
+
+
+.pagination-wrapper-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    .b-pagination-pills {
+        .page-item {
+            .page-link {
+                width: 32px;
+                height: 32px;
+                border-radius: 7px !important;
+                padding: 0;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #fff;
+                cursor: pointer;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000B1D;
+                margin-left: 10px;
+            }
+            &.active {
+                .page-link {
+                    background-color: $brand-info;
+                    border-color: $brand-info;
+                    color: $white;
+                    &:hover, &:focus, &:active {
+                         box-shadow: none !important;
+                    }
+                }
+            }
+           &.disabled {
+                background-color: transparent;
+                .page-link {
+                    background-color: #F2F5FC;
+                }
+            }
+        }
+
+    }
+    .table-user-page {
+        color: #000;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .table-user-count {
+        display: inline-block;
+        font-size: 14px;
+        color: #000;
+        font-weight: 500;
+    }
+    .pagination {
+        margin-bottom: 0;
+    }
+    .site-select{
+        &.site-select-sm {
+            .multiselect {
+                min-width: 100px;
+                .multiselect-multiple-label,
+                .multiselect-placeholder,
+                .multiselect-single-label {
+                    padding-left: 10px;
+                    font-weight: 400;
+                    line-height: 15px;
+                }
+            }
+        }
+    }
+}
+
+// for table strips 
+// .all_employee_inner .weekly_report_table tbody tr:nth-child(even) td{
+//     background-color:#FBFCFF;
+// }
+// _______________
+// in 768
+// .site_table_wrapper{
+//     overflow: auto;
+//  }
+// ____________
+// in media 767
+// .weekly_report_table thead tr th {
+//     padding: 10px 15px 9px;
+// }
+// .weekly_report_table tbody tr td{
+//     padding:10px 15px;
+// }
+.quote_descripiton {
+    white-space: normal;
+}
+
+
+
+.p-table-wrapper {
+    table {
+        border: 1px solid #D1D6E2;
+        table-layout: inherit;
+        thead {
+            th {
+    
+                background-color: #1D2858;
+                font-size: 14px;
+                line-height: 16px;
+                font-weight: 700;
+                color: #FFFFFF;
+                padding: 10px 25px 9px;
+                padding: 10px 17px 9px;
+                vertical-align: middle;
+                text-wrap: nowrap;
+    
+                &.th-120 {
+                    min-width: 120px;
+                    width: 120px;
+                }
+    
+                &.th-90 {
+                    min-width: 90px;
+                    width: 90px;
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    padding: 12px 17px;
+                    border-bottom: 1px solid #d1d6e2;
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-weight: 400;
+                    color: #6a7382;
+                    vertical-align: middle;
+                    text-wrap: nowrap;
+                }
+            }
+        }
+    }
+}

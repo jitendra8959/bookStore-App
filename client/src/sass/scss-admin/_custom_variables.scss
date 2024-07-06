@@ -1,0 +1,62 @@
+//colors
+
+$white: #ffffff !default;
+$black: #000000 !default;
+$brand-purple: #9432DD !default;
+$gray-900: #526c79 !default;
+$pink: #f94f7a !default;
+$brand-primary: #338AF0 !default;
+$brand-secondary: #6A7382 !default;
+$brand-tertiary: #16449a !default;
+$brand-danger: #ff242b !default;
+$brand-success: #10cf69 !default;
+$brand-warning: #e1d75d !default;
+$brand-gray: #434257 !default;
+$brand-info: #0dcaf0 !default;
+$brand-light: #f8f9fa !default;
+$brand-dark: #2A3941 !default;
+$brand-primary-100: #455a64;
+$brand-primary-200: #7c9a92;
+$brand-primary-300: #094752;
+$brand-primary-500: #274a59;
+$input-border: #e4e4e4;
+$primary-border: #97c1c1;
+$gray-500: #798397;
+$orange-100: #f2795e;
+$orange-200: #f6a28f;
+$orange-300: #f85f3d;
+$gray-800: #2c28281a;
+$gray-900: #47494D;
+$yellow-500: #f8be3d;
+$brand-gray-600: #808fa3;
+$brand-gray-o45: rgb(35 49 60 / 45%);
+$black-100: #011d22;
+$light-grey: #23313c73;
+
+// applied colors:
+$link-color: $brand-primary  !default;
+$link-hover-color: darken($link-color, 10%) !default;
+$brand-primary-hover: lighten($brand-primary, 10%) !default;
+$brand-secondary-hover: darken($brand-secondary, 10%) !default;
+$brand-tertiary-hover: darken($brand-tertiary, 10%) !default;
+$brand-danger-hover: darken($brand-danger, 10%) !default;
+$brand-success-hover: darken($brand-success, 10%) !default;
+$brand-warning-hover: darken($brand-warning, 10%) !default;
+$brand-info-hover: darken($brand-warning, 10%) !default;
+$brand-light-hover: darken($brand-light, 10%) !default;
+$brand-dark-hover: darken($brand-dark, 10%) !default;
+$brand-purple-hover: darken($brand-purple, 10%) !default;
+$orange-100-hover: darken($orange-100, 10%);
+
+// default font
+
+$font-base: "SF UI Display" sans-serif !important;
+
+// Font Weights
+$ft_Weight_100: 100;
+$ft_Weight_200: 200;
+$ft_Weight_300: 300;
+$regular: 400;
+$ft_Weight_M: 500;
+$ft_Weight_SM: 600;
+$bold: 700;

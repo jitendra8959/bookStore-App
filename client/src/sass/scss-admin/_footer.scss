@@ -1,0 +1,15 @@
+.site-footer {
+    width: 100%;
+    background-color: $white;
+    border-top: 1px solid $brand-primary;
+    padding: 11px 15px;
+    z-index: 99;
+    margin-top: auto;
+    .copy-text {
+      font-size: 14px;
+      color: $brand-primary;
+      font-weight: 600;
+      line-height: 24px;
+      text-align: center;
+    }
+  }

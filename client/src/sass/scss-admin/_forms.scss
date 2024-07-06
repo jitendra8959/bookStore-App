@@ -1,0 +1,203 @@
+.site_input_label{
+    font-size: 15px;
+    line-height: 17px;
+    color: #2A3941;
+    font-weight:$ft_Weight_SM;
+    margin-bottom: 8px;
+}
+.site_input_box{
+ margin-bottom:10px;
+}
+.form-group {
+    margin-bottom: 22px;
+}
+.site_input{
+    padding: 11px 40px 11px 16px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight:$regular;
+    color: #6A7382 !important;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D6E2;
+    border-radius: 5px;
+    width: 100%;
+    background-clip: padding-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+ &:focus,&:hover{
+        border-color:#D1D6E2;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0%);
+ }
+ &.site_input_lg{
+    height: 55px;
+ }
+}
+// Custom Check input start
+.formcheck_ele{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.checkbox_label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    top:-12px;
+}
+.checkbox_label .custom_checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark_right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D6E2;
+    border-radius: 5px;
+}
+.checkbox_label .custom_checkbox:checked ~ .checkmark_right {
+    background-color:#1D2858;
+    border: none;
+}
+.checkmark_right:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkbox_label .checkmark_right:after {
+    left: 8px;
+    top: 1px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.checkbox_label .custom_checkbox:checked ~ .checkmark_right:after {
+    display: block;
+}
+.site-form {
+    .site-fieldset {
+        margin-bottom: 45px;
+    }
+    .form-title {
+        font-size: 30px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    .form-btn-group {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        .theme-btn {
+            min-width: 240px;
+        }
+    }
+    .close-btn {
+        margin-left: auto;
+        display: block;
+    }
+}
+.form_close_btn{
+ position:absolute;
+ top: 24px;
+ right: 15px 
+}
+.form_close_btn button{
+ background-color:transparent;
+ border:none;
+ overflow: hidden;
+}
+.form_close_btn button img{
+    width:20px;
+    height:20px;
+    object-fit: contain;
+}
+.input_icon_wrapper{
+    position: relative;
+}
+.input_icon_wrapper span{
+    position: absolute;
+    top: 16px;
+    right: 15px;
+}
+// Custom Check input end
+.site-select-wrapper {
+    .dp__input {
+         
+        font-size: 14px;
+        
+    }
+}
+
+
+
+
+
+
+
+.site-radiobutton {
+    float: left;
+    margin: 0 5px 0 0;
+    
+    position: relative;
+  }
+  
+  .site-radiobutton label,
+  .site-radiobutton input {
+    display: block;
+     
+  }
+  
+  .site-radiobutton input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+    position: absolute;
+  }
+  
+  .site-radiobutton input[type="radio"]:checked + label {
+    background: $brand-primary;
+    border-color: $brand-primary;
+    color: $white;
+   
+  }
+  
+  .site-radiobutton label {
+	cursor: pointer;
+	z-index: 90;
+	border: 1px solid #6A7382;
+	color: #6A7382;
+	background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 9px 25px;
+}
+  

@@ -1,0 +1,153 @@
+.site-modal {
+    .modal-header {
+         padding:40px 30px 0px;
+         border-bottom: 0;
+         position: relative;
+         button{
+            background:url("../../../assets/images/icons/svg/popupclose_btn.svg");
+            background-repeat: no-repeat;
+            background-position:center;
+            position: absolute;
+            top:25px;
+            right:25px;
+         } 
+
+         @include respond(phone) {
+            padding: 20px 20px 0px 20px;
+        }
+        .modal-title {
+            margin-bottom: 0;
+            color: $black;
+            // font-size: 18px;
+            // font-weight: 500;
+            // line-height: 24px;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 35px;
+        }
+    }
+    .modal-content {
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        border:1px solid #D1D6E2;
+        background-color:#FFFFFF;
+    }
+    .modal-dialog {
+        @media (min-width: 576px) {
+            max-width: 560px;
+        }
+    }
+    .modal-btn-wrapper {
+        margin-top: 15px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        @include respond(phone) {
+            gap: 10px;
+        }
+    }
+    .b-overlay-wrap {
+        .bg-dark {
+            background-color: rgba(0, 0, 0, 0.21) !important;
+            backdrop-filter: blur(3px);
+            -webkit-backdrop-filter: blur(3px);
+            opacity: 1 !important;
+            // margin-left: 255px;
+            @include respond(tab-land) {
+                margin-left: 0;
+             }
+        }
+    }
+    .btn-close {
+        opacity: 1;
+    &:focus{
+            outline: 0;
+            box-shadow: none;
+            opacity: 1;
+    }   
+    }
+    .modal-body {
+        padding: 30px;
+        @include respond(phone) {
+            padding: 20px 20px;
+        }
+    }
+    .inner-modal-content {
+        // border-top: 1px solid #E3E3E3;
+        // padding-top: 20px;  
+        .add-image{
+            width: 16px;
+            height: 16px;
+            object-fit: cover;
+        }
+        .addmore-wrap {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .label-delete-wrap {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            .site_input_label{
+                margin-bottom: 0;
+            }
+        }
+    }
+    &.site-modal-md {
+        .modal-dialog{
+            @media (min-width: 576px) {
+                max-width: 700px;
+            }
+        }
+    }
+    &.site-modal-sm {
+        .modal-dialog {
+            @media (min-width: 576px) {
+                max-width: 415px;
+            }
+        }
+    }
+    .theme-btn {
+        @include respond(phone) {
+            padding: 9px 10px;
+            min-width: 90px;
+        }
+
+
+    }
+    .site-select{
+        .multiselect {
+            min-width: 100px;
+        }
+    }
+
+    .add_product_save_btn_wrap {
+        h4 {
+            color: #000;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+}
+.body-active{
+    &.modal-open {
+        .site-modal {
+            .b-overlay-wrap {
+                .bg-dark {
+                    transition: margin-left 0.3s ease-in-out;
+                    margin-left: 64px;
+                }
+            }
+        }
+    }
+}
+
+.el_popup_footer{
+    .el_primary_btn,
+    .el_cancle_btn{
+     min-width:100px;
+    }
+}

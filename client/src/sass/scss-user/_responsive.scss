@@ -1,0 +1,375 @@
+@media screen and (min-width: 1200px) and (max-width: 1708px) {
+    #original_source-error {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+
+    .widgets-select-wrap .select2-container .select2-selection--single,
+    .widgets-select-wrap .select2-container .select2-selection--single .select2-selection__rendered {
+        min-width: 160px;
+    }
+
+}
+
+@media screen and (max-width: 1399px) {
+
+}
+@media screen and (max-width: 1365px) {
+
+}
+@media(max-width:1300px){
+
+}
+@media screen and (max-width: 1199px) {
+.login_form_head {
+        margin-bottom: 35px;
+}
+.login_section .site-fieldset {
+    margin-bottom: 15px;
+}
+.verify_sec .login_form_head {
+    margin-bottom: 40px;
+}
+.verify_sec .verify_send_icon {
+    margin-bottom: 25px;
+}
+}
+
+ 
+
+@media screen and (max-width: 991px) { 
+    .login_form_head {
+        margin-bottom: 30px;
+    }
+     .site_title{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 22px;
+     }
+     .login_section .site-fieldset {
+        margin-bottom: 0px;
+     }
+    .employee_report_top {
+        margin-bottom: 20px;
+    }
+    .employee_main_head {
+        // flex-direction: column;
+        // align-items: flex-start;
+        gap:10px;
+        margin-bottom:25px;
+        padding:20px;
+    }
+    // .employee_submit_box {
+    //     height: 210px;
+    //     padding-left: 243px;
+    //     margin: auto;
+    //     text-align: center;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     position: relative;
+    // }
+    .employee_details_box {
+        width: 100%;
+    }
+    .employee_time_box{
+        margin-bottom: 10px;
+        width:100%;
+    }
+    // .employee_date_box {
+    //     width: 100%;
+    // }
+    .table_title_right{
+        width:100%;
+    }
+    .site_count_wrapper {
+       margin-right:0px;
+    }
+    .container {
+        max-width: 1226px;
+    }
+    .multidetail_header {
+        flex-direction: row;
+    }
+    .multidetail_left .user_datil {
+        gap: 15px;
+    }
+    .multidetail_left .userdetail_listbox {
+        padding-left: 15px;
+    }
+    .performance_review_bottom .nominat_box .nominat_head_radio {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .performance_review_bottom .nominat_box {
+        align-items: center;
+    }
+    .site-selectfilter-wrapper{
+        align-items: center;
+        gap:15px;
+    }
+    .site-selectfilter-wrapper span{
+      text-wrap:nowrap;
+    }
+    .useradmin_tabbox .tabbox_right{
+        top: 2px;
+    }
+    .site_countqoutes_wrapper .employee_main_head.thought-wrapper {
+        margin-bottom: 10px;
+    }
+    .site_breadcrumb_box .breadcrumb { 
+     margin-bottom:25px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .login_section {
+        padding: 0px 15px !important;
+    }
+    .verify_sec .login_form_head {
+        margin-bottom: 30px;
+    }
+    .verify_sec .verify_send_icon {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    .verify_text_box .site_title {
+        margin-bottom: 15px;
+    }
+    .verify_text_box p {
+        margin-bottom: 25px;
+    }
+   
+    .employee_main_head{
+        padding:15px;
+        margin-bottom: 15px;
+        gap:8px;
+        // display: grid;
+        // grid-template-columns: 12fr 1fr;
+    }
+    .table_title {
+        font-size: 20px;
+        line-height: 25px;
+        // margin-bottom:0px;
+    }
+    .employee_time_box .hours{
+        font-size: 16px;
+        line-height: 20px;
+        padding: 8px 10px;
+        letter-spacing: 2px;
+    }
+   
+    .employee_report_top {
+        margin-bottom:20px;
+    }
+    .employee_report_top, .table_title_wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    // .employee_submit_box{
+    //     height: 180px;
+    //     width:180px;
+    //     padding-left: 0px;
+    // }
+    .report_submit_btn {
+        line-height: 18px;
+        padding: 6px 15px;
+    }
+    .site-table thead th {
+        font-size: 13px;
+        padding: 10px 15px 9px;
+    }
+    .site-table tbody tr td {
+        padding: 12px 15px;
+    }
+    .table_title_right{
+        flex-direction:column;
+        gap:10px;
+        width:100%;
+    }
+    .verify_sec .site_link_wrapper,
+    .admin_login .site_link_wrapper{
+        margin-top:20px;
+    }
+    .site_count_wrapper {
+        margin-right: 0px;
+     }
+      .multidetail_left{
+        display: grid;
+        grid-template-columns: 2.7fr 2.5fr;
+        column-gap: 0;
+        row-gap: 15px;
+      }
+     .multidetail_left .user_datil_round {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .multidetail_left .user_datil{
+        gap: 8px;
+        grid-column: span 2;
+    }
+    .performance_review_bottom .nominat_box{
+        flex-direction: column;
+        align-items: flex-start;
+        gap:10px;
+        margin-bottom:10px;
+    }
+    .site_count_wrapper_new{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .site_count_wrapper_new button{
+     width:100%;
+    }
+    .useradmin_tabbox .tabbox_right {
+        position: inherit;
+        top:0;
+        width:100%;
+    }
+    .site-selectfilter-wrapper{
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+    }
+    .site_breadcrumb_box .breadcrumb {
+        margin-bottom: 15px;
+    }
+    .admin_deshboard {
+        padding: 0 !important;
+    }
+    .useradmin_tabbox{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .performance_review_bottom .nominat_btn_box.performance_review_footer{
+        width:100%;
+    }
+    .performance_review_bottom .nominat_btn_box.performance_review_footer .VueDatePicker-wrap{
+        width:100%;
+    }
+    .site_rengeslider{
+        width: 150px;
+    }
+    .site_bottombox_right{
+        width:100%;
+        gap:10px;
+     }
+     .site_countqoutes_wrapper {
+        margin-bottom: 15px;
+    }
+    .performance_review_bottom .addcomment_textarea{
+        padding:11px;
+     }
+}
+@media (max-width: 575px){ 
+    // .site_count_wrapper{
+    //     flex-direction: column;
+    //     width: 100%;
+    // }
+    .site_count_box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .submit_profiledetail_box{
+        padding-top:10px;
+    }
+    .submit_profiledetail_box .submit_profiledetail{
+        min-width:auto;
+        width:100%;
+    }
+    .multidetail_left .userdetail_listbox {
+        grid-column: span 2;
+    }
+    .employee_main_head {
+        grid-template-columns: 10fr 2fr;
+        display: grid;
+        padding:15px 10px;
+    }
+    .multidetail_left .detail_list .detail_items span{
+        gap:5px;
+    }
+    .multidetail_right {
+        display: flex;
+        justify-content: end;
+        height: 100%;
+    }
+    .multidetail_left .detail_list .detail_items {
+        flex-direction: column;
+        gap:8px;
+    }
+    .performance_review_bottom .nominat_box .nominat_head_radio {
+        gap: 10px;
+        // flex-direction: column;
+    }
+    .performance_review_bottom .nominat_box{
+        gap: 5px;
+    }
+    .performance_review_bottom .performance_review_footer{
+        margin-top: 15px;
+    }
+    .employee_main_head .employee_submit_box,
+    .employee_main_head .employee_data_box{
+        grid-column: span 2; 
+    }
+    .employee_main_head .employee_data_box{
+        margin-bottom:10px;
+    }
+    .employee_main_head .submit_wrapper{
+        align-items: flex-start;
+    }
+    .employee_main_head .employee_date_box{
+        grid-column: span 2; 
+    }
+    .site_tabs_contentbox .nav-tabs .nav-link {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .useradmin_tabbox ul.nav.nav-tabs {
+        gap: 10px;
+    }
+    // .admin_deshboard {
+    //     padding: 20px 0px !important;
+    // }
+    .performance_review_bottom .nominat_btn_box{
+        flex-direction: column;
+        gap:5px;
+    }
+    .performance_review_bottom .nominat_btn_box .site-radiobutton{
+      width:100%;
+      gap: 10px;
+      text-align: center;
+    }
+    .performance_review_bottom .nominat_btn_box.performance_review_footer .theme-btn {
+        min-width: auto;
+        width: 100%;
+    }
+    .employee_main_head.thought-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .employee_main_head.thought-wrapper .thought-box{
+        grid-column: span 2;
+    }
+    .report_submit_btn{
+        width:100%;
+    }
+    .employee_data_box .site_link_wrapper{
+        flex-direction: column;
+        gap:8px;
+    }
+    .multidetail_drodown{
+        align-items: flex-start;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+// Media quries Manager
+/*
+0 - 600px:       phone
+600px - 900px:   Tablet Potrait
+900px - 1200px:  Tablet landscape
+1200px - 1800px: is where normal styles
+1800px +:        Big desktop
+*/
+
+// @mixin respond-phone {
+//   @media (max-width: 600px) {
+//     @content;
+//   }
+// }
+
+/*
+ $brakpoints Arrgument choice
+ - phone
+ - tab-port
+ - tab-land
+ - big-desktop
+
+ 1em = 16px
+*/
+
+@mixin respond($brakpoint) {
+    @if $brakpoint ==phone {
+      @media (max-width: 767px) {
+        @content; // sm down
+      }
+    }
+
+    @if $brakpoint ==phone-xss {
+      @media (max-width: 360px) {
+        @content; // xxs down
+      }
+    }
+
+    @if $brakpoint ==tab-port {
+      @media (max-width: 991px) {
+        @content; // md down
+      }
+    }
+
+    @if $brakpoint ==tab-land {
+      @media (max-width: 1199px) {
+        @content; // lg down
+      }
+    }
+
+    @if $brakpoint ==md-desktop {
+      @media (max-width: 1376px) {
+        @content; // xl down
+      }
+    }
+
+    @if $brakpoint ==big-desktop {
+      @media (min-width: 1800px) {
+        @content; // xxl up
+      }
+    }
+
+    @if $brakpoint ==tab-port-min {
+      @media (min-width: 992px) {
+        @content; // md up
+      }
+    }
+
+    @if $brakpoint ==tab-port-min1 {
+      @media (min-width: 768px) {
+        @content; // md up
+      }
+    }
+
+  }
